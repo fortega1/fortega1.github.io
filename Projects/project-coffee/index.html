@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/c941ef3fd4.js" crossorigin="anonymous"></script>
+    <link href='https://fonts.googleapis.com/css?family=Delius' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Wide Awake Cafe</title>
+  </head>
+  <body>
+
+<!-- Navigation -->  
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="images/java2.jfif" alt="An image of a coffee cup." class="img-fluid"></a>
+    <h1 class="display-1 text-dark text-center">Wide Awake Cafe</h1>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#carouselExampleControls">Home</a></li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#services">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#footer">Location</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#footer">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<!-- Carousel -->
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/javaoffering.jpg" class="carousel-img" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/javaroast3.jpg" class="carousel-img" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/javaroast1.jpg" class="carousel-img" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+<!-- Story -->
+<div class="about">
+<h1 class="display-4" id="about">Our Story:</h1>
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores possimus quis aspernatur minus, dolor molestiae optio esse ad hic quaerat impedit cupiditate, inventore expedita corrupti ratione alias totam quidem sequi.
+Atque perferendis itaque incidunt ex id, molestias dicta est asperiores laudantium ea perspiciatis quo quaerat necessitatibus doloremque quasi laboriosam sequi enim totam odit iusto at voluptatem. Voluptatum nemo molestias in!
+Debitis iusto placeat explicabo vitae in, earum sequi commodi modi nemo culpa, tempora vero magni aut dolorem ratione excepturi sint eveniet nihil totam maxime nam? Numquam, rerum voluptatibus! Quibusdam, dicta?</p>
+</div><hr>
+
+<!-- Services -->
+    <div class="row" id="services">
+        <h1 class="display-4">Our Offerings:</h1>
+        <div class="col-md-4">
+            <h1 class="display-5">Fresh Brewed Coffee</h1>
+            <img src="images/coffee4.jpg" class="services-img" alt="...">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni, totam. Magni suscipit eveniet repudiandae beatae nesciunt eum natus veniam, ratione nam, itaque nemo culpa. Magnam, accusamus! Odit rerum illo modi?
+        </div>
+
+        <div class="col-md-4">
+            <h1 class="display-5">Fresh Baked Goods</h1>
+            <img src="images/baked3.jpg" class="services-img" alt="...">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est, voluptates excepturi, ipsa voluptas fuga laudantium officia, quis aspernatur aut cupiditate cum sunt sequi facilis velit obcaecati a consequatur molestiae quae?
+        </div>
+
+        <div class="col-md-4">
+        <h1 class="display-5">Relaxing Atmosphere</h1>
+        <img src="images/coffee1.jpg" class="services-img" alt="...">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. At numquam culpa consequuntur dolorum, expedita quis maxime suscipit sapiente odit praesentium? A amet recusandae iure quidem? Odio fugit quibusdam facere dignissimos.</div>
+      </div><hr>
+  
+  <!-- Contact -->
+    <div class="contact">
+    <h1 class="display-4">Our Location:</h1>
+    </div>
+    <div id="googleMap" style="width:100%;height:400px;"></div>
+
+  <!-- Footer -->
+  <footer class="footer" id="footer">
+    <a href="mailto:" class="footer-link">chiefbrewmaster@wideawakecafe.com</a>
+    <ul class="social-list">
+      <li class="social-list-item"><a class="social-list-link" href=""><i class="fab fa-facebook"></i></a></li>
+      <li class="social-list-item"><a class="social-list-link" href=""><i class="fab fa-twitter"></i></a></li>
+    </ul>
+  </footer>
+
+<!-- Google maps -->
+  <script>
+    function myMap() {
+    var location = {lat: 36.731651, lng: -119.785858};
+    var map = new google.maps.Map(document.getElementById("googleMap"), {
+      zoom: 4, 
+      center: location
+      });
+    }
+  </script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAvy24-F3TFY7AUOuIIANAvVKAvZw-BZds&callback=myMap"></script>
+  
+  <!-- Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</body>
+</html>
