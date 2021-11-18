@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Felipe Ortega's portfolio website built for the 
+    VetsInTech: Front-end Web Dev Course.">
+    <title>Felipe Ortega Portfolio Website</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" type="image/x-icon" href="images/favicon-16x16.png" />
+    <script src="https://kit.fontawesome.com/c941ef3fd4.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <!--Header-->
+    <header>
+      <div class="logo">
+        <h1>FELIPE <span>ORTEGA</span></h1>
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#footer" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Intro -->
+    <section class="intro" id="intro">
+      <h2 class="section-title section-title-intro">
+        Hello, I'm <strong>Felipe Ortega</strong>
+      </h2>
+      <p class="section-subtitle section-subtitle-intro">front-end dev</p>
+      <img src="images/webdev.jpeg" alt="An image of a Developer." class="intro-img">
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about">
+      <h2 class="section-title section-title-about">Who am I</h2>
+      <p class="section-subtitle section-subtitle-about">An aspiring Full-Stack Web Developer.</p>
+      <p>I am a web development student based out of Fresno, California. I'm currently seeking internship opportunities that will allow me to apply my skillset and develop professionally.</p>
+      <img src="images/me.jpg" alt="An image of Felipe Ortega" class="about-img">
+    </section>
+
+    <!-- Skills -->
+    <section class="my-skills" id="skills">
+      <h2 class="section-title section-title-skills">My Skills</h2>
+      <div class="skills">
+        <div class="skill">
+          <h3>HTML5</h3>
+          <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML" rel="noopener" target="_blank">
+            <img src="images/HTML5_logo.png" alt="HTML5 logo." class="skill-img">
+          </a>
+          <p>HTML (Hypertext Markup Language) is the code that is used to structure a web page and its content.</p>
+        </div> <!-- / HTML -->
+
+        <div class="skill">
+          <h3>CSS3</h3>
+          <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS" rel="noopener" target="_blank">
+            <img src="images/CSS3_logo.png" alt="CSS3 logo."class="skill-img">
+          </a>
+          <p>Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML.</p>
+        </div> <!-- / CSS -->
+      
+        <div class="skill">
+          <h3>JavaScript</h3>
+          <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript" rel="noopener" target="_blank">
+            <img src="images/JavaScript.png" alt="JavaScript logo." class="skill-img">
+          </a>
+          <p>JavaScript is a scripting or programming language that allows you to implement complex features on web pages.</p>
+        </div> <!-- / JavaScript -->
+      </div> <!-- / skills -->
+    </section>  
+
+    <!-- Projects -->
+    <section class="projects" id=projects>
+      <h2 class="section-title section-title-projects">My Projects</h2>
+      <p class="section-subtitle section-subtitle-projects">A selection of my web development projects</p>
+
+      <div class="project">
+        <a href="Projects/project-calculator/index.html" class="project-item" target="blank">
+          <img src="images/calculator.jpg" alt="An image of a calculator" class="project-img">
+        </a>
+      </div>
+      
+      <div class="project">
+        <a href="Projects/project-dojo/index.html" class="project-item" target="_blank">
+          <img src="images/zen.jpg" alt="An image of a camera" class="project-img">
+        </a>
+      </div>
+
+      <div class="project">
+          <a href="Projects/project-coffee/index.html" class="project-item" target="blank">
+            <img src="images/javabeans.jpg" alt="An image of a stopwatch" class="project-img">
+          </a>
+      </div>
+    </section>
+
+  <a href="#" class="btn">Jump to Top</a>  
+
+  <!-- Footer -->
+    <footer class="footer" id="footer">
+      <a href="mailto:felipe.j.ortega2018@gmail.com" class="footer-link">felipe.j.ortega2018@gmail.com</a>
+      <ul class="social-list">
+        <li class="social-list-item"><a href="https://www.linkedin.com/in/felipe-ortega-161b16151/" rel="noopener" target="_blank" class="social-list-link" ><i class="fab fa-linkedin"></i><a></li>
+        <li class="social-list-item"><a href="https://github.com/fortega1" rel="noopener" target="_blank" class="social-list-link" ><i class="fab fa-github"></i></a></li>
+        <li class="social-list-item"><a href="https://www.facebook.com/felipe.ortega.52012" rel="noopener" target="_blank" class="social-list-link" ><i class="fab fa-facebook"></i></a></li>
+        <li class="social-list-item"><a href="https://twitter.com/mrfelipeortega" rel="noopener" target="_blank" class="social-list-link" ><i class="fab fa-twitter"></i></a></li>
+      </ul>
+    </footer>
+   
+    <script src="js/index.js"></script>
+
+  </body>
+</html>
